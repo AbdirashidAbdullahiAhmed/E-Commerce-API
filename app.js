@@ -35,7 +35,7 @@ app.use(xss())
 app.use(cors())
 app.use(mongoSanitize())
 
-app.use(morgan('tiny'))
+// app.use(morgan('tiny'))
 app.use(express.json())
 app.use(cookieParser(process.env.JWT_SECRET))
 app.use(express.static('./public'))
@@ -48,14 +48,14 @@ const productRouter = require('./routes/productRoutes')
 const reviewRouter = require('./routes/reviewRoutes')
 const orderRouter = require('./routes/orderRoutes')
 
-app.get('/', (req, res) => {
-  res.send('e-commerce api')
-})
+// app.get('/', (req, res) => {
+//   res.send('e-commerce api')
+// })
 
-app.get('/api/v1', (req, res) => {
-  console.log(req.cookies)
-  res.send('E-Commerce API')
-})
+// app.get('/api/v1', (req, res) => {
+//   console.log(req.cookies)
+//   res.send('E-Commerce API')
+// })
 
 app.use('/api/v1/auth', authRouter)
 app.use('/api/v1/users', userRouter)
