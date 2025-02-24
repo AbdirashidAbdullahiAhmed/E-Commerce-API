@@ -101,9 +101,8 @@ Fork the repo, create a new branch, and submit a pull request. Feedback is alway
 ---
 
 ### 📢 Connect With Me!
-📌 LinkedIn: [Your Profile Link]  
-📌 GitHub:[Your GitHub Profile]  
-📌 Instagram:[Your Profile Link]  
+📌 LinkedIn: https://www.linkedin.com/in/abdirashid-ahmed-248485267/   
+📌 Instagram:https://www.instagram.com/abdirashid_361/ 
 
 ---
 
